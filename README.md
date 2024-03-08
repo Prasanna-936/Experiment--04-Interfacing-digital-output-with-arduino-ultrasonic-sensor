@@ -55,9 +55,68 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### PROGRAM 
+```
+Name : PRASANNA R
+Reg no: 212221220039
+dept/year : IT-3rd year
+
+```
+// C++ code
+//
+int echopin=6;
+int trigpin=7;
+int red=8;
+int green=9;
+long duration;
+float distance;
+void setup()
+{
+  pinMode(echopin, INPUT);
+  pinMode(trigpin, OUTPUT);
+  pinMode(red, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+  
+}
+
+void loop()
+{
+  digitalWrite(trigpin, LOW);
+  delay(10);
+  digitalWrite(trigpin, HIGH);
+  delay(10);
+  digitalWrite(trigpin, LOW);
+  duration=pulseIn(echopin,HIGH);
+  distance=duration*0.034/2;
+  Serial.print("distance=");
+  Serial.print(distance);
+  Serial.println("cms");
+  if(distance>50)
+  {
+    digitalWrite(green,HIGH);
+    delay(500);
+    digitalWrite(green,LOW);
+    delay(500);
+  }
+  else
+  {
+    digitalWrite(red,HIGH);
+    delay(500);
+    digitalWrite(red,LOW);
+    delay(500);
+  }
+  
+}
+
+```
+### Schematic Diagram
 
 
+<img width="656" alt="Screenshot 2024-03-08 160057" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/29a7e04c-474e-473d-9045-0f119751811c">
 
+
+### Circuit Diagram
+<img width="658" alt="Screenshot 2024-03-08 160531" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/5a93790e-aa89-44e2-8426-6e499f8e20ca">
 
 
 
@@ -68,8 +127,9 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 			
 			
 			
+<img width="283" alt="Screenshot 2024-03-08 160339" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/572c03c7-fdfb-4f48-a609-24db39d03e13">
 
-![image](https://user-images.githubusercontent.com/36288975/190135379-52ebacd5-ccd5-460f-a4cd-4d0ad1d9b179.png)
+
 
 			
 			
@@ -87,6 +147,7 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### RESULTS
+Thus the program for the distance measurement using Ultrasonic sensor is been implemented successfully.
 
 
 
