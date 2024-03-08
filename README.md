@@ -119,6 +119,9 @@ void loop()
 <img width="658" alt="Screenshot 2024-03-08 160531" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/5a93790e-aa89-44e2-8426-6e499f8e20ca">
 
 
+### Graph
+<img width="415" alt="Screenshot 2024-03-08 160213" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/aa43c621-ed00-465c-aa91-a18564afee23">
+
 
 ### Distance vs measurement table 
 
