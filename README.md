@@ -1,5 +1,10 @@
 # EXPERIMENT-NO--05-Distance measurement using Ultrasonic sensor
+```
+Name : PRASANNA R
+Reg no: 212221220039
+dept/year : IT-3rd year
 
+```
 ## AIM: 
 To interface an ultrasonic pair and measure the distance in centimeters , calculate the error
  
@@ -55,11 +60,6 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### PROGRAM 
-```
-Name : PRASANNA R
-Reg no: 212221220039
-dept/year : IT-3rd year
-
 ```
 // C++ code
 //
