@@ -1,10 +1,9 @@
-# EXPERIMENT-NO--05-Distance measurement using Ultrasonic sensor
-```
-Name : PRASANNA R
-Reg no: 212221220039
-dept/year : IT-3rd year
+# EXPERIMENT-NO--04-Distance measurement using Ultrasonic sensor
 
-```
+### Name : PRASANNA R
+### Reg no: 212221220039
+### Dept/year : IT-3rd year
+
 ## AIM: 
 To interface an ultrasonic pair and measure the distance in centimeters , calculate the error
  
