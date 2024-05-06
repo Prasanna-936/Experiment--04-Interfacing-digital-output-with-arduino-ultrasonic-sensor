@@ -122,30 +122,12 @@ void loop()
 <img width="415" alt="Screenshot 2024-03-08 160213" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/aa43c621-ed00-465c-aa91-a18564afee23">
 
 
-### Distance vs measurement table 
-
-			
- 
-			
-			
-			
-<img width="283" alt="Screenshot 2024-03-08 160339" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/572c03c7-fdfb-4f48-a609-24db39d03e13">
-
-
-
-			
-			
-			
+### Distance vs measurement table 			
+<img width="283" alt="Screenshot 2024-03-08 160339" src="https://github.com/Prasanna-936/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/130341982/572c03c7-fdfb-4f48-a609-24db39d03e13">		
 			
 			
 			Average error = sum/ number of readings 
  
-
-
-
-
-
-
 
 
 ### RESULTS
